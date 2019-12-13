@@ -1,6 +1,6 @@
 <h3 class="cent">新增個人基本資料</h3>
 <hr>
-<form action="./api/add.php" method="post" enctype="multipart/form-data" style="width:60%;margin:auto">
+<form action="./api/add.php" method="post" enctype="multipart/form-data" style="width:50%;margin:auto">
 <table>
     <tr>
         <td>大頭照照片：</td>

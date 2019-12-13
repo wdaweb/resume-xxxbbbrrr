@@ -39,7 +39,7 @@
         ?>
         <tr class="cent">
           <td>
-            <img src="./img/<?=$r['file'];?>" style="width:200px;height:100px">
+            <img src="./img/<?=$r['file'];?>" style="width:150px;height:80px">
           </td>
           <td>
             <!--radio是單選的機制，因此name的屬性不需使用陣列的型式-->

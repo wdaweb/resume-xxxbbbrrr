@@ -1,13 +1,13 @@
 <h3 class="cent">新增學歷資料</h3>
 <hr>
-<form action="./api/add.php" method="post" enctype="multipart/form-data" style="width:60%;margin:auto">
+<form action="./api/add.php" method="post" enctype="multipart/form-data" style="width:40%;margin:auto">
 <table>
     <tr>
-        <td>學校：</td>
+        <td>就讀學校：</td>
         <td><input type="text" name="uni" id="uni"></td>
     </tr>
     <tr>
-        <td>科系：</td>
+        <td>就讀科系：</td>
         <td><input type="text" name="dep" id="dep"></td>
     </tr>
     <tr>

@@ -1,6 +1,6 @@
 <h3 class="cent">新增工作經歷</h3>
 <hr>
-<form action="./api/add.php" method="post" enctype="multipart/form-data" style="width:60%;margin:auto">
+<form action="./api/add.php" method="post" enctype="multipart/form-data" style="width:40%;margin:auto">
 <table>
     <tr>
         <td>公司名稱：</td>

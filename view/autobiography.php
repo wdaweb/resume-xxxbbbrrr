@@ -1,6 +1,6 @@
 <h3 class="cent">新增個人自傳</h3>
 <hr>
-<form action="./api/add.php" method="post" enctype="multipart/form-data" style="width:60%;margin:auto">
+<form action="./api/add.php" method="post" enctype="multipart/form-data" style="width:65%;margin:auto">
 <table>
     <tr>
         <td>個人自傳內容：</td>

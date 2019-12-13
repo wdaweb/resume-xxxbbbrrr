@@ -1,13 +1,13 @@
 <h3 class="cent">新增管理者帳號</h3>
 <hr>
-<form action="./api/add.php" method="post" enctype="multipart/form-data" style="width:60%;margin:auto">
+<form action="./api/add.php" method="post" enctype="multipart/form-data" style="width:46%;margin:auto">
 <table>
     <tr>
-        <td>帳號：</td>
+        <td>管理者帳號：</td>
         <td><input type="text" name="acc"></td>
     </tr>
     <tr>
-        <td>密碼：</td>
+        <td>管理者密碼：</td>
         <td><input type="password" name="pw"></td>
     </tr>
     <tr>

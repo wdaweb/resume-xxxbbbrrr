@@ -4,7 +4,7 @@
         <?php
             if(empty($_SESSION['login'])){
         ?>
-            <button style="width:100%; margin-left:auto; margin-right:auto; margin-top:2px; height:50px; background-color:pink; font-size:24px;" onclick="lo(&#39;login.php&#39;)">管理登入</button>
+            <button style="width:100%; margin-left:auto; margin-right:auto; margin-top:2px; height:50px; background-color:pink; font-size:24px;" onclick="op('#cover','#cvr','./view/login.php')">管理登入</button>
         <?php
             }else{
         ?>
