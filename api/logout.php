@@ -5,5 +5,5 @@ include_once "../base.php";
 unset($_SESSION['login']);
 
 //依據題目要求登出後前往管理登入頁
-to("../index.php?do=login");
+to("../index.php");
 ?>

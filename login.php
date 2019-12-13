@@ -23,10 +23,8 @@
         }
     }
   ?>
-  
-  <div class="di"  style="height:540px; border:#999 1px solid; width:50%; position:relative; left:20px;">
-    <!--正中央-->
-    <!--刪除target="back"，ps欄位改成pw以符合資料表的欄位名-->
+
+  <div class="di"  style="height:540px; border:#999 1px solid; width:400px; position:relative; left:700px;text-align:center;">
     <form method="post" action="login.php">
       <p class="t botli">管理員登入區</p>
       <p class="cent">帳號 ： <input name="acc" autofocus="" type="text"></p>

@@ -1,9 +1,9 @@
-<h3 class="cent">更新校園映像圖片</h3>
+<h3 class="cent">更新圖片</h3>
 <hr>
 <form action="./api/update_img.php" method="post" enctype="multipart/form-data" style="width:60%;margin:auto">
 <table>
     <tr>
-        <td>校園映像圖片：</td>
+        <td>圖片：</td>
         <td><input type="file" name="file" id="file"></td>
     </tr>
     <tr>

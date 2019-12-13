@@ -14,5 +14,4 @@ $ti=find("personal",["sh"=>1]);
     <div><?=$ti['email'];?></div>
     <div><?=$ti['note'];?></div>
 </div>
-    <!--標題-->
 </a>

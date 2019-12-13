@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.1
+-- version 4.9.0.1
 -- https://www.phpmyadmin.net/
 --
 -- 主機： 127.0.0.1
--- 產生時間： 
--- 伺服器版本： 10.4.8-MariaDB
--- PHP 版本： 7.3.10
+-- 產生時間： 2019-12-13 09:37:56
+-- 伺服器版本： 10.4.6-MariaDB
+-- PHP 版本： 7.3.9
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -110,28 +110,6 @@ INSERT INTO `image` (`id`, `file`, `text`, `sh`) VALUES
 (3, '02.jpg', '', 1),
 (11, '03.jpg', '', 1),
 (12, '05.jpg', '', 1);
-
--- --------------------------------------------------------
-
---
--- 資料表結構 `menu`
---
-
-CREATE TABLE `menu` (
-  `id` int(5) UNSIGNED NOT NULL,
-  `href` text COLLATE utf8mb4_unicode_ci NOT NULL,
-  `text` text COLLATE utf8mb4_unicode_ci NOT NULL,
-  `parent` int(5) NOT NULL,
-  `sh` int(1) NOT NULL DEFAULT 1
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- 傾印資料表的資料 `menu`
---
-
-INSERT INTO `menu` (`id`, `href`, `text`, `parent`, `sh`) VALUES
-(1, 'fsgfsgsfgfsdgs', '法務部辦理', 0, 1),
-(2, 'https://www.yahoo.com.tw', '臺北教育大學', 0, 1);
 
 -- --------------------------------------------------------
 
@@ -255,12 +233,6 @@ ALTER TABLE `image`
   ADD PRIMARY KEY (`id`);
 
 --
--- 資料表索引 `menu`
---
-ALTER TABLE `menu`
-  ADD PRIMARY KEY (`id`);
-
---
 -- 資料表索引 `personal`
 --
 ALTER TABLE `personal`
@@ -311,12 +283,6 @@ ALTER TABLE `edu`
 --
 ALTER TABLE `image`
   MODIFY `id` int(5) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
-
---
--- 使用資料表自動遞增(AUTO_INCREMENT) `menu`
---
-ALTER TABLE `menu`
-  MODIFY `id` int(5) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- 使用資料表自動遞增(AUTO_INCREMENT) `personal`

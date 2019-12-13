@@ -79,22 +79,16 @@ include_once "base.php";
             <tr>
               <td style="width:70%;font-weight:800;height:50px; border:#333 1px solid; border-radius:3px;" class="cent"><a
                   href="?do=admin" style="color:#000; text-decoration:none;"><h2>後台管理區</h2></a></td>
-                  <!--可以將按鈕內容改成loaction.href='index.php?do=login'來做到跳到管理登入畫面的功能-->
-                  <!--這裹我們示範利用session來記錄登入狀態，所以我們建立一個logout的檔案來處理登出-->
-              <!-- <td><button onclick="location.replace('./api/logout.php')"
-                  style="width:99%; margin-right:2px; height:50px;">管理登出</button></td> -->
+                
             </tr>
           </tbody>
         </table>
         <?php
 
-              //利用網址傳值的方式來取得$_GET['do']的值，這個值代表我們要include進來的檔案
               $do=(!empty($_GET['do']))?$_GET['do']:"personal";
 
-              //我們將所有要include進來的後台功能檔案都放在 ./admin 目錄下，因此根據GET的值來組合include檔的完整路徑
               $path="./admin/" . $do . ".php";
 
-              //判斷檔案是否存在來決定是要匯入檔案還是預設匯入title.php
               if(file_exists($path)){
                 include $path;
               }else{
