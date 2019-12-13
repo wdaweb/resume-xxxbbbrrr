@@ -65,7 +65,7 @@ body {
 .mainmu{
 	position:relative;
 	border-radius:10px;
-	background:url(../icon/menu.fw.png) center no-repeat;
+	background:url(../icon/menu3.fw.png) center no-repeat;
 	background-size:cover;
 	line-height:30px;
 	padding:2px 10px 2px 10px;
@@ -73,7 +73,7 @@ body {
 	height: 35px;
 }
 .mainmu:hover{
-	background:url(../icon/menu2.fw.png) center no-repeat;
+	background:url(../icon/menu.fw.png) center no-repeat;
 	background-size:cover;
 }
 .mainmu2{
@@ -97,7 +97,7 @@ body {
 }
 #menuput{
 	width:82%;
-	height:95%;
+	height:88%;
 	position:relative;
 	padding:5px;
 	display:block;
@@ -130,7 +130,7 @@ input:focus,button:focus{
 	box-shadow:#09C 0px 0px 3px .3px;
 }
 .yel td{
-	background:#F3DA49;
+	background:rgb(139, 151, 216);
 	text-align:center;
 }
 .trce td{

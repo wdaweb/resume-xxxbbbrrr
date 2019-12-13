@@ -1,4 +1,4 @@
-<h3 class="cent">新增技能專長</h3>
+<h3 class="cent">新增技能專長資料</h3>
 <hr>
 <form action="./api/add.php" method="post" enctype="multipart/form-data" style="width:60%;margin:auto">
 <table>

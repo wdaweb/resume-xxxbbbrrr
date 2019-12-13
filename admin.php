@@ -72,7 +72,7 @@ include_once "base.php";
         
       </div>
       <div class="di"
-        style="height:660px; border:#999 1px solid; width:78%; margin:2px 0px 0px 0px; float:left; position:relative;">
+        style="height:600px; border:#999 1px solid; width:78%; margin:2px 0px 0px 0px; float:left; position:relative;">
         <!--正中央-->
         <table width="100%">
           <tbody>
